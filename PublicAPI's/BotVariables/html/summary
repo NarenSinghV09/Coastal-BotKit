@@ -1,0 +1,61 @@
+<style>
+    table td,
+    table th {
+        font-size: smaller;
+        border: 1px solid black;
+        line-height: 1.4;
+        padding: 10px 10px;
+    }
+</style>
+<table>
+    <tbody>
+        <tr>
+            <th>Content Variables</th>
+            <th></th>
+            <th>Env Variables</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Source Variable -&gt; Target</td>
+            <td></td>
+            <td>Source Variable -&gt; Target</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Source Total</td>
+            <td></td>
+            <td>Source Total</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Target Total</td>
+            <td></td>
+            <td>Target Total</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Same</td>
+            <td></td>
+            <td>Same</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Change</td>
+            <td></td>
+            <td>Change</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Delete</td>
+            <td></td>
+            <td>Delete</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Added</td>
+            <td></td>
+            <td>Added</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>

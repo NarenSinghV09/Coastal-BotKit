@@ -1,0 +1,18 @@
+<style>
+    table td,
+    table th {
+        font-size: smaller;
+        border: 1px solid black;
+        line-height: 1.4;
+        padding: 10px 10px;
+    }
+</style>
+<table>
+    <tbody>
+        <tr>
+            <th>Variable Name</th>
+            <th>Source Value</th>
+            <th>Target Value</th>
+        </tr>
+    </tbody>
+</table>

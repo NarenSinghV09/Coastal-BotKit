@@ -1,0 +1,319 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=1.0">
+	<script src="./libs/jquery.js"></script>
+	<link href="chatWindow.css" rel="stylesheet">
+	</link>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="header">
+		<div class="header-title">Chat History</div>
+	</div>
+	<ul class="chat-container" id="content">
+	</ul>
+	<script type="text/javascript">
+		const isJSON = (value) => { try { JSON.parse(value); return true; } catch (e) { return false; } };
+		var getUrlParameter = function getUrlParameter(sParam) {
+			var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+				sURLVariables = sPageURL.split('&'),
+				sParameterName,
+				i;
+			for (i = 0; i < sURLVariables.length; i++) {
+				sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] === sParam) {
+					return sParameterName[1] === undefined ? true : sParameterName[1];
+				}
+			}
+		};
+		function getMessage(responseText) {
+
+			if (isJSON(responseText)) {
+				var msg = JSON.parse(responseText).type;
+				console.log("message======" + msg);
+				if (msg === "template") {
+					var type = JSON.parse(responseText).payload.template_type
+					let txt;
+					var payload;
+					switch (type) {
+						case "form_template":
+							payload = JSON.parse(responseText).payload;
+							txt = "<div class='btn btn-text quickreplyText'>" + payload.heading + "</div><div class='quickReplyDiv'>";
+							for (i = 0; i < payload.formFields.length; i++) {
+								txt += "<div class='quickreplyText'>" + payload.formFields[i].label + "</div><div><input type='text' hint='Please enter you your phone id and pin'></div>";
+							}
+							txt = txt + '</div>'
+							for (i = 0; i < payload.buttons.length; i++) {
+								txt +=  "<div class='quickReply'>" + payload.buttons[i].title + "</div>";
+							}
+							txt = txt + '</div>'
+							return txt;
+							break;
+						case "quick_replies_welcome":
+							payload = JSON.parse(responseText).payload;
+							txt = "<div class='btn btn-text quickreplyText'>" + payload.text + "</div><div class='quickReplyDiv'>";
+							//var buttons =
+							for (i = 0; i < payload.quick_replies.length; i++) {
+								txt += "<div class='btn'>" + payload.quick_replies[i].title + "</div>";
+							}
+							txt = txt + '</div>'
+							return txt;
+							break;
+						case "listView":
+						payload = JSON.parse(responseText).payload;
+						txt = "<div class='btn btn-text quickreplyText'>" + payload.text + "</div><div class='quickReplyDiv'>";
+						for (i = 0; i < payload.elements.length; i++) {
+								txt += "<div class='btn'>" + payload.elements[i].title+"-"+payload.elements[i].subtitle+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+payload.elements[i].value+ "</div><br>";
+							}
+							txt = txt + '</div>'
+							return txt;
+							break;
+						case "SYSTEM": 
+						case "live_agent":
+						payload = JSON.parse(responseText).payload;
+						txt="<div class='btn btn-text quickreplyText'>" + payload.text + "</div><div class='quickReplyDiv'>";
+						return txt;
+						break;
+					}
+				}
+				else
+				{
+					return JSON.parse(responseText).text;
+				}
+			}
+
+			else {
+				return responseText;
+			}
+
+			return msg;
+		}
+		var formatAMPM = function (date) {
+			var hours = date.getHours();
+			var minutes = date.getMinutes();
+			var ampm = hours >= 12 ? 'pm' : 'am';
+			hours = hours % 12;
+			hours = hours ? hours : 12; // the hour '0' should be '12'
+			minutes = minutes < 10 ? '0' + minutes : minutes;
+			var strTime = hours + ':' + minutes + ' ' + ampm;
+			return strTime;
+		};
+		var formatDate = function (date) {
+			var d = new Date(date);
+			return d.toDateString() + " at " + formatAMPM(d);
+		};
+		// $(document).on("ready", function () {
+		$(document).ready(function () {
+			var visitorId = getUrlParameter('sessionId');
+			var botid= getUrlParameter('botid');
+			var clientSecret=getUrlParameter('clientSecret');
+			console.log("clientSecret", clientSecret);
+			if(clientSecret=="7JOc+Qaa9GisGPEdq62lpU0mNqKFb+z+17tU1gHON0g")
+			{
+			$.ajax({
+				url: window.location.origin + "/ufcu-prod" + "/gethistory?sessionId=" + visitorId +"&botid="+botid,
+				type: 'get',
+				dataType: 'json',
+				success: function (data) {
+					console.log(data);
+					var messages = data;
+					var textMessages = [];
+					var chatContainer = $('.chat-container');
+					var messagesHtml = "";
+					for (var i = 0; i < messages.length; i++) {
+						var text = messages[i].components[0].data.text;
+						var innerhtml = "";
+						if (messages[i].type === "incoming") {
+							innerhtml = '<li class="fromCurrentUser "> \
+						<div class="extra-info">' + formatDate(messages[i].createdOn) + '</div> \
+				<div class="messageBubble"> \
+						<div>' + text + '</div> \
+						</div> \
+						</li>';
+						}
+						else {
+							console.log("outgoing message::", text, "=====", Array.isArray(text), "========+", text instanceof Object, "typeof", typeof text);
+							if (text) {
+								console.log("InText");
+								var txt = getMessage(text)
+								console.log("After text", txt);
+								if (txt) {
+							innerhtml = '<li class="fromOtherUsers with-icon"> \
+						<div class="extra-info">' + formatDate(messages[i].createdOn) + '</div> \
+						<div class="profile-photo"> \
+								<div class="user-account avtar" \
+						style="background-image:url(\'libs/images/kora-blue.svg\')"></div> \
+								</div> \
+								<div class="messageBubble"> \
+								<div>' + txt + '</div> \
+							</div> \
+							</li>';
+									}
+								}
+						}
+						messagesHtml += innerhtml;
+					}
+					$("#content").append(messagesHtml);
+				}
+			});
+			}
+		else
+		{
+			var chatContainer = $('.chat-container');
+			var messagesHtml = "You have entered wrong <b>Client Secret</b>, Can you please trying again";
+			 var text = '<div><label class="clientSecret">Please enter your <b>Client Secret:</b></label>\
+						<input type ="text" hint ="Enter your client secret" id="password" /><br><br>\
+						<div><b> Please use the URL that is generated here:: <b id="getId"> </b>  </b></div>\
+						<input type ="submit" value ="submit" onclick="myFunction()">'
+		
+			messagesHtml= messagesHtml+"<br/><br/>"+text; 
+						
+			$("#content").append(messagesHtml);
+		}
+		});
+		function myFunction()
+		{
+			var text= document.getElementById("password").value;
+			console.log("text"+text);
+			document.getElementById("getId").innerHTML = "<a href="+window.location+'&clientSecret='+text+">"+window.location+'&clientSecret='+text+"</a>";
+		}
+	</script>
+	<style>
+		.CustomListTemplateHeader{
+	
+			text-align: left;
+			margin: 0 !important;
+			padding: 10px;
+			border-top-left-radius: 12px;
+			border-top-right-radius: 12px;
+			color: #404040;
+			background: #ffffff;
+			border: 1px solid #979797 !important;
+			border-bottom: none !important;
+		}
+		.minitableDiv{
+	  text-align: left;
+	  padding: 10px;
+	  text-align: left;
+	  padding: 10px;
+	  font-size: 15px;
+	  color: #404040;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	}
+	.fromCurrentUser
+	{
+		color: #1e2e3e;
+	}
+	.extra-info
+	{
+		background-color: #ffffff;
+	}
+		.CustomListTemplateTitle{
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 16px;
+		color: #404040;
+		margin: 3px 0px;
+	
+		}
+		.customlistquickreplyTemplate{
+	
+			background: #ffffff;
+			border: 1px solid #979797;
+			border-bottom: none;
+			padding: 10px;
+			margin: 0;
+			width: 100%;
+			display: inline-block;
+	}
+		.btn {
+			margin-bottom: 0px !important;
+			color: #1e2e3e;
+			border-bottom: 1PX solid #c1b3b3;
+			border-left: 1px solid #c1b3b3;
+			border-right: 1px solid #c1b3b3;
+			padding: 10px;
+			margin: 0;
+			text-align: left;
+			cursor: pointer;
+			background: #fff;
+		}
+	
+		.btn-text {
+			background-color: #2e5673;
+			color: white;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+	
+		.chat-container {
+			border: 1px solId #ece7e7;
+			background-color: white;
+			font-family: "Lato", sans-serif;
+			font-size: 14px;
+			PADDING: 20PX;
+		}
+	
+		.quickReplyDiv {
+			display: table-cell;
+			padding: 10px 10px 7px 0;
+			border: none;
+		}
+	
+		.quickreplyText {
+			position: relative;
+			text-align: left;
+		}
+	
+		.quickReply {
+			display: inline-grid !important;
+			margin: 5px;
+			position: relative;
+			border: 1px solid #26344a;
+			padding: 4px 13px;
+			border-radius: 20px;
+			display: table;
+			white-space: nowrap;
+			color: #26344a;
+			background: #fff;
+			transition: background-color 200ms linear;
+			-webkit-transition: background-color 200ms linear;
+			-moz-transition: background-color 200ms linear;
+			-o-transition: background-color 200ms linear;
+			-ms-transition: background-color 200ms linear;
+		}
+		.customListTmplContentBox {
+		float: left;
+		color: #333;
+		border-radius: 12px;
+		padding: 0;
+		font-size: 14px;
+		-webkit-animation: message-left ease-in-out 2s forwards;
+		-moz-animation: message-left ease-in-out 2s forwards;
+		animation: message-left ease-in-out 2s forwards;
+		margin: 0;
+		border: none !important;
+		/* max-width: 95%; */
+		width: 100%;
+		line-height: 1.5;
+	}
+	.customListTmplContentMenuchild
+	{
+		background: #fff;
+		border: 1px solid #979797 !important;
+		padding: 12px 15px !important;
+		margin: 0;
+		width: 100%;
+		border-radius: 12px !important;
+		margin-bottom: 10px !important;
+		display: inline-block;
+		cursor: pointer;
+	}
+	</style>	
+</body>
+
+</html>

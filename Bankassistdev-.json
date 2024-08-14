@@ -1,0 +1,1364 @@
+{
+    "currentLanguage": "en",
+    "message_tone": [
+      {
+        "tone_name": "positive",
+        "level": 1,
+        "count": 1
+      }
+    ],
+    "dialog_tone": [
+      {
+        "tone_name": "positive",
+        "level": 1,
+        "count": 1
+      }
+    ],
+    "currentTraits": [],
+    "NLAnalysis": {
+      "userInput": "hello",
+      "intents": {
+        "successIntents": [
+          {
+            "childBotName": "BankAssist Extension Dev",
+            "intentName": "hello",
+            "activity": "ST",
+            "identifyingEngine": "none"
+          }
+        ]
+      }
+    },
+    "userInputs": {
+      "originalInput": {
+        "sentence": "hello",
+        "spellCorrectedSentence": "hello",
+        "sentenceType": "statement",
+        "timestamp": 1706618334752
+      }
+    },
+    "smallTalk": {
+      "pattern": "~emohello",
+      "matchData": {},
+      "previousMatchData": []
+    },
+    "externalNLUState": {
+      "resetContexts": false,
+      "entities": {}
+    },
+    "session": {
+      "EnterpriseContext": {},
+      "BotContext": {
+        "todayObj": {
+          "date": "2024-1-10",
+          "sumOfRatings": 1,
+          "numberOfRatings": 1,
+          "cumulativeAvg": 0,
+          "numberfOfDays": 1
+        },
+        "usercount": 1
+      },
+      "UserContext": {
+        "workinghours": {
+          "workdays": "mon,tue,wed,thu,fri",
+          "workstart": "8:00 AM",
+          "workend": "5:00 PM"
+        },
+        "profImage": "no-avatar",
+        "jTitle": null,
+        "dept": null,
+        "profColour": "#ff8c00",
+        "activationStatus": "active",
+        "emailId": "swathi.daggubati@kore.com",
+        "firstName": "Swathi",
+        "lastName": "Daggubati",
+        "orgId": "o-750c78c1-8c5e-52de-a7da-c373220c72ac",
+        "_id": "u-1854256f-0fda-5c3b-9865-efbae9283b66",
+        "accountId": "65203af7391d718428c910f2",
+        "identities": [
+          {
+            "val": "swathi.daggubati@kore.com",
+            "type": "email"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/647471074e9f491e1226717d",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/647472ee25dd7f1d7841b329",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/64747350fe6f0695177a0b10",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/647475fcfdd8d51c1b95f478",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/64749787c6b1e41df975abd4",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/6476f61bb3e850eb2d5ff654",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/smartassist/6476f6371f2912829e75e80a",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/6480640784a5a513571847a0",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/6480647484a5a51357184e10",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648064886aebda530d099d64",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648064b74da54186f5a17eea",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648064d32c69d1ee3da70282",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648064e42ab0565351e96812",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64806506e1c32213a3c4740a",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648065a1777dc613bb8b7610",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648065c9e1c32213a3c47fa8",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648065cb9e085b76f84f56a9",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648065ce2ab0565351e973cd",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64806a4e769e3453313ba96c",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64806b24759a7b86b053849c",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64806b364e100f774b1cdf87",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64807e94801b53536ea886c4",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64807ea5769e3453313d6377",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64807eedc282c1edd7e103bb",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64808070699884776b4784d1",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/6480807a553a4a778f38f415",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648080c0ac2bd0edb1875162",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648080dc6aebda530d0bec22",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64817f79801b53536ec753f7",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/64817fc5cf59c3869043612d",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/6481a43b17f349ed7b8bf5ed",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/6481a5f46ee1978650533a65",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/6489e3659c55bf423589e7e3",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648abb1a9e758bf932bfb11d",
+            "type": "mapped"
+          },
+          {
+            "val": "644a8f6a1ccd99482799d9c8/smartassist/648abe74d1959a9bc5196ef0",
+            "type": "mapped"
+          },
+          {
+            "val": "57f8c66e67b0e7ed4371e251/smartassist/648ac37d00c0b7f95365ecdf",
+            "type": "mapped"
+          },
+          {
+            "val": "57f8c66e67b0e7ed4371e251/smartassist/648ac4e229d3139b42befb72",
+            "type": "mapped"
+          },
+          {
+            "val": "57f8c66e67b0e7ed4371e251/smartassist/648ac51e165faacefb123d8d",
+            "type": "mapped"
+          },
+          {
+            "val": "57f8c66e67b0e7ed4371e251/smartassist/648ac556d1959a9bc5199d60",
+            "type": "mapped"
+          },
+          {
+            "val": "63ea4bbedc4347195ce91a6d/ivrinst-01d2a3ba-0119-5e3d-87a5-07f25dfe43b4/c-7b2d98c-b738-4376-90bb-4b9c16d9e9c5",
+            "type": "mapped"
+          },
+          {
+            "val": "64677049947ffe5906a554aa/smartassist/653a3ef0680cffbc133d5405",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/agentassist/c-09155b1-4e1b-4522-8039-258cc4ac7985",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/6585491ac0bf990bc66dafaa",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/658a90f2c4ed682c389316b4",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/658a96d94494952a0df3996a",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/658a96e1499211a308382c15",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/658c47051fef27cb70d34be1",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/658c4737406bf1a81394ec80",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/65968607b08badc9281cb92c",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/65968624cee69ea1f6b1f90f",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/65968636001728611ee4f007",
+            "type": "mapped"
+          },
+          {
+            "val": "65203af7391d718428c910f2/smartassist/659e94e5dbe1a9f2333e5eee",
+            "type": "mapped"
+          }
+        ]
+      },
+      "UserSession": {
+        "userRemoteAddress": "115.114.88.222"
+      },
+      "BotUserSession": {
+        "correlationid": 427450,
+        "channelType": null,
+        "isDemo": false,
+        "ubBotId": "st-21ae4413-5366-5621-85c8-08f0f5a3f906",
+        "accountId": "65203af7391d718428c910f2",
+        "externalAccountsEnabled": false,
+        "mobileNumber": 12693387836,
+        "lastMessage": {
+          "channel": "rtm",
+          "messagePayload": {
+            "clientMessageId": 1706618323325,
+            "message": {
+              "body": "hello"
+            },
+            "resourceid": "/bot.message",
+            "isDebugging": true,
+            "botInfo": {
+              "chatBot": "BankAssist Dev",
+              "taskBotId": "st-21ae4413-5366-5621-85c8-08f0f5a3f906",
+              "botType": "universalbot",
+              "hostDomain": "https://bots.kore.ai",
+              "os": "Windows",
+              "device": "Other"
+            },
+            "client": "botbuilder",
+            "meta": {
+              "timezone": "Asia/Kolkata",
+              "locale": "en-US"
+            },
+            "id": 1706618323325
+          }
+        },
+        "ubUserId": "u-1854256f-0fda-5c3b-9865-efbae9283b66",
+        "loginStatus": "success",
+        "customerName": "JOYCE ROBERTS",
+        "lastUserMessageTime": "2024-01-30T12:38:43.669Z",
+        "accessToken": "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;&lt;WhoIsResponse xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" MessageDateTime=\"2024-01-30T02:45:26.2267489-05:00\" TrackingId=\"Kore.ai\" Successful=\"true\" ExceptionCode=\"None\" Signature=\"FbU9zR8DGXfAX3duaVSGCLc6XQFh/ssjGsngpQIgfmwmGKdWMqE1jXE9qb1OQNMKOoWTsrQ7l0tlqXcEwX3FB4SIH6QmfqmnCUVDCqGYeYIJYmyl5qgfR2FkHhC3Y6LZyR0p8LQKjUCsGtj7Os6Lz0fVAPlmLRJdsQsso9TitLGc6RVLfIqUme+fzc1IM67/d/H89ljiiYAQloIvaTc+B/NY2BG2hn9f7nxFI9awdNJSNJBf4i1gHLyOaC3J4wVKG4YD7ZZhOVJwQYWp19iZB+0gDfAgeWaXTKHTyoyhBLCRJMVb42RXpYBtwbicOJRkQ+3UVMqEpwcxT72ngudfwIamRq5gw36hoc3wEK17fRLXz34egcw+4fsOgUDeb/gpwr9uBoxH98rmjQ8IWRbau6nKrgYZtFnS1pgDieR/oXnk45VekjpTph48JDiiiOjxcuYb3ayoxqyHiRztY3iCcr7Cx2MfiWVSSYXxdBBMtc49fviW0e+c+TKeSCfYhzQjOlPweGfMyz89IDmsiaVodcnpcmPMrdm6NmYsOpPMlHyJ7f764DKWsE+bG37i3GH9rQoeJwU3ak22ohD7tpJqIObOqnUJHP9L/Zhi+m3QoUsnBHPZ/S5CPNWPfLTFM1VRZXQIXncwlBiqmbcSKnzdF989MiPuU/gQh0sYxgqMmsk=\"&gt;&lt;SafUserNbr&gt;3189&lt;/SafUserNbr&gt;&lt;SafUserName&gt;KOREAPIUSER&lt;/SafUserName&gt;&lt;FirstName&gt;Kore&lt;/FirstName&gt;&lt;LastName&gt;APIUSER&lt;/LastName&gt;&lt;ExpirationDate&gt;2024-01-31T02:45:26.0214855-05:00&lt;/ExpirationDate&gt;&lt;AuthenticatedProducts&gt;&lt;ProdNbr&gt;1&lt;/ProdNbr&gt;&lt;ProdPersId&gt;3189&lt;/ProdPersId&gt;&lt;/AuthenticatedProducts&gt;&lt;AuthenticatedProducts&gt;&lt;ProdNbr&gt;3&lt;/ProdNbr&gt;&lt;ProdPersId&gt;507315&lt;/ProdPersId&gt;&lt;/AuthenticatedProducts&gt;&lt;/WhoIsResponse&gt;",
+        "bankBaseURL": null,
+        "vendor": {},
+        "authApiPath": "https://bankassist.kore.ai/smt/",
+        "conversationSessionId": "65b8edd37895712f456e7330",
+        "firstName": "JOYCE ROBERTS",
+        "source": "fiserv",
+        "client": "ufcu",
+        "subsource": "kore",
+        "userCode": "",
+        "ssn": 423509648,
+        "productCodeDetails": [
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV06"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV07"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Money Market Savings",
+            "code": "SAV-SVRT"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV02"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SB03"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV03"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SB01"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV05"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-CLUB"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV01"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SB02"
+          },
+          {
+            "acc": "Savings",
+            "sub": "Regular Savings",
+            "code": "SAV-SV04"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CITA"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Interest Checking",
+            "code": "CK-CK04"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CK07"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CB06"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-DLR"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CANZ"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-STBL"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CB11"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CB07"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CK06"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CB02"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Interest Checking",
+            "code": "CK-CK03"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CB04"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CK05"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Money Market Checking",
+            "code": "CK-CB05"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CK02"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CB08"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Interest Checking",
+            "code": "CK-CHSA"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CLRA"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CB03"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-INVR"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CB01"
+          },
+          {
+            "acc": "Checking",
+            "sub": "Regular Checking",
+            "code": "CK-CK01"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC11"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC13"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC23"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC24"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC06"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC48"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC12"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC51"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC16"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC14"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC50"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC30"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC55"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC52"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC25"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC36"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC58"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC29"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC18"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC60"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC34"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC46"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC45"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC72"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC03"
+          },
+          {
+            "acc": "IRA",
+            "sub": "IRA",
+            "code": "TD-RC20"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB80"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB12"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD29"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB63"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB18"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB48"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB50"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD12"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD06"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD03"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD52"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD60"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB23"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD45"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB64"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB16"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB09"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB62"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD11"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD20"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB10"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB06"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD36"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD30"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB30"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD58"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB52"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB61"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CL12"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD46"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB36"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB55"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB14"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD18"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD72"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB25"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB24"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD25"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD13"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD14"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB13"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB45"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD50"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB60"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD48"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD51"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB51"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD24"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD34"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD23"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD55"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CB03"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD16"
+          },
+          {
+            "acc": "CD/FD/RD",
+            "sub": "CD/FD/RD",
+            "code": "TD-CD09"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-CN01"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BT04"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-CN02"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL05"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Unsecured",
+            "code": "CNS-CN08"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-IN01"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BT07"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL06"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL07"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL04"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-CN06"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-CN03"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BT01"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL08"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL03"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL02"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-IN04"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BT06"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BT03"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BL01"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Unsecured",
+            "code": "CNS-CL01"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-CN04"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-IN02"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CNS-CN07"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-IN03"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Auto",
+            "code": "CNS-CN05"
+          },
+          {
+            "acc": "Loans",
+            "sub": "Secured - Other",
+            "code": "CML-BT02"
+          },
+          {
+            "acc": "Lines",
+            "sub": "Secured - Home Equity",
+            "code": "CNS-HL01"
+          },
+          {
+            "acc": "Lines",
+            "sub": "Secured - Home Equity",
+            "code": "CNS-HL02"
+          },
+          {
+            "acc": "Lines",
+            "sub": "Secured - Home Equity",
+            "code": "CNS-HL03"
+          },
+          {
+            "acc": "Lines",
+            "sub": "Secured - Home Equity",
+            "code": "CNS-HE02"
+          },
+          {
+            "acc": "Lines",
+            "sub": "Secured - Home Equity",
+            "code": "CNS-HE01"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MA02"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG09"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "CML-BM03"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "CML-BC02"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "CML-BC01"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG10"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MA03"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MC01"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MA01"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG01"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG11"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "CML-BM01"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG05"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG07"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MC03"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG06"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "CML-BM02"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG02"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG13"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG03"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MA04"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MC04"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG08"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MC02"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG04"
+          },
+          {
+            "acc": "Mortgage",
+            "sub": "Primary",
+            "code": "MTG-MG12"
+          },
+          {
+            "acc": "Credit Card",
+            "sub": "Credit Card",
+            "code": "OPTIS-591500600000"
+          },
+          {
+            "acc": "Credit Card",
+            "sub": "Credit Card",
+            "code": "OPTIS-591500200000"
+          },
+          {
+            "acc": "Credit Card",
+            "sub": "Credit Card",
+            "code": "OPTIS-591500300000"
+          },
+          {
+            "acc": "Credit Card",
+            "sub": "Credit Card",
+            "code": "OPTIS-591500500000"
+          },
+          {
+            "acc": "Credit Card",
+            "sub": "Credit Card",
+            "code": "OPTIS-591500100000"
+          },
+          {
+            "acc": "Credit Card",
+            "sub": "Credit Card",
+            "code": "OPTIS-591500400000"
+          }
+        ],
+        "isPhoneIdWebLogin": "false",
+        "apiPath": "https://bankassist.kore.ai/smt/",
+        "isReturningUser": true,
+        "lastName": "",
+        "intentNotFoundCount": null,
+        "tenantId": null,
+        "sessionStartTime": 1706615109215,
+        "prodDetails": "{\"productCodes\":[{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV06\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV07\"},{\"acc\":\"Savings\",\"sub\":\"Money Market Savings\",\"code\":\"SAV-SVRT\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV02\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SB03\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV03\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SB01\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV05\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-CLUB\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV01\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SB02\"},{\"acc\":\"Savings\",\"sub\":\"Regular Savings\",\"code\":\"SAV-SV04\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CITA\"},{\"acc\":\"Checking\",\"sub\":\"Interest Checking\",\"code\":\"CK-CK04\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CK07\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CB06\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-DLR\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CANZ\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-STBL\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CB11\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CB07\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CK06\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CB02\"},{\"acc\":\"Checking\",\"sub\":\"Interest Checking\",\"code\":\"CK-CK03\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CB04\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CK05\"},{\"acc\":\"Checking\",\"sub\":\"Money Market Checking\",\"code\":\"CK-CB05\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CK02\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CB08\"},{\"acc\":\"Checking\",\"sub\":\"Interest Checking\",\"code\":\"CK-CHSA\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CLRA\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CB03\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-INVR\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CB01\"},{\"acc\":\"Checking\",\"sub\":\"Regular Checking\",\"code\":\"CK-CK01\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC11\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC13\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC23\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC24\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC06\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC48\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC12\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC51\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC16\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC14\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC50\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC30\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC55\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC52\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC25\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC36\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC58\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC29\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC18\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC60\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC34\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC46\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC45\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC72\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC03\"},{\"acc\":\"IRA\",\"sub\":\"IRA\",\"code\":\"TD-RC20\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB80\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB12\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD29\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB63\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB18\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB48\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB50\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD12\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD06\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD03\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD52\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD60\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB23\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD45\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB64\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB16\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB09\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB62\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD11\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD20\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB10\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB06\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD36\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD30\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB30\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD58\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB52\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB61\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CL12\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD46\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB36\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB55\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB14\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD18\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD72\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB25\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB24\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD25\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD13\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD14\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB13\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB45\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD50\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB60\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD48\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD51\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB51\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD24\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD34\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD23\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD55\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CB03\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD16\"},{\"acc\":\"CD/FD/RD\",\"sub\":\"CD/FD/RD\",\"code\":\"TD-CD09\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-CN01\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BT04\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-CN02\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL05\"},{\"acc\":\"Loans\",\"sub\":\"Unsecured\",\"code\":\"CNS-CN08\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-IN01\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BT07\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL06\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL07\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL04\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-CN06\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-CN03\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BT01\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL08\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL03\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL02\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-IN04\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BT06\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BT03\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BL01\"},{\"acc\":\"Loans\",\"sub\":\"Unsecured\",\"code\":\"CNS-CL01\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-CN04\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-IN02\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CNS-CN07\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-IN03\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Auto\",\"code\":\"CNS-CN05\"},{\"acc\":\"Loans\",\"sub\":\"Secured - Other\",\"code\":\"CML-BT02\"},{\"acc\":\"Lines\",\"sub\":\"Secured - Home Equity\",\"code\":\"CNS-HL01\"},{\"acc\":\"Lines\",\"sub\":\"Secured - Home Equity\",\"code\":\"CNS-HL02\"},{\"acc\":\"Lines\",\"sub\":\"Secured - Home Equity\",\"code\":\"CNS-HL03\"},{\"acc\":\"Lines\",\"sub\":\"Secured - Home Equity\",\"code\":\"CNS-HE02\"},{\"acc\":\"Lines\",\"sub\":\"Secured - Home Equity\",\"code\":\"CNS-HE01\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MA02\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG09\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"CML-BM03\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"CML-BC02\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"CML-BC01\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG10\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MA03\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MC01\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MA01\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG01\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG11\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"CML-BM01\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG05\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG07\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MC03\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG06\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"CML-BM02\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG02\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG13\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG03\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MA04\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MC04\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG08\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MC02\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG04\"},{\"acc\":\"Mortgage\",\"sub\":\"Primary\",\"code\":\"MTG-MG12\"},{\"acc\":\"Credit Card\",\"sub\":\"Credit Card\",\"code\":\"OPTIS-591500600000\"},{\"acc\":\"Credit Card\",\"sub\":\"Credit Card\",\"code\":\"OPTIS-591500200000\"},{\"acc\":\"Credit Card\",\"sub\":\"Credit Card\",\"code\":\"OPTIS-591500300000\"},{\"acc\":\"Credit Card\",\"sub\":\"Credit Card\",\"code\":\"OPTIS-591500500000\"},{\"acc\":\"Credit Card\",\"sub\":\"Credit Card\",\"code\":\"OPTIS-591500100000\"},{\"acc\":\"Credit Card\",\"sub\":\"Credit Card\",\"code\":\"OPTIS-591500400000\"}]}",
+        "_metaInfo": {},
+        "accNum": "14660100",
+        "customerID": "4778",
+        "preEOD": null,
+        "accountFromCB": {
+          "accountName": "Membership",
+          "accountNickname": "Membership",
+          "accountNumber": "14660100",
+          "accountType": "Savings Account",
+          "activatedDate": "11-11-1998",
+          "availableBalance": 423.62,
+          "bankName": "",
+          "branchName": "St Joseph",
+          "currency": "USD",
+          "currentBalance": 428.62,
+          "customerId": 4778,
+          "dueAmount": 0,
+          "interestRate": 0.05,
+          "internalTransferFromEnabled": true,
+          "internalTransferToEnabled": true,
+          "isAlternateMobileNumber": false,
+          "isCrossAccount": true,
+          "isPrimaryMobileNumber": true,
+          "lastDrawDate": "01-05-2024",
+          "location": "312 Elmwood St, Hartford, Michigan, 49057",
+          "maxTransactionLimit": "0.01",
+          "minimumBalance": 5,
+          "openingBalance": 10.32,
+          "p2pEnabled": false,
+          "P2PLimit": 0,
+          "paybillEnabled": false,
+          "phone": "(269) 338-7836",
+          "alternatePhoneNumber": "",
+          "postedBalance": 428.62,
+          "productCode": "SV01",
+          "productName": "Membership",
+          "propertyAddress": "312 Elmwood St Hartford MI 49057-1264",
+          "statementDate": "12/31/2023",
+          "status": "active",
+          "totalBalance": 428.62,
+          "displayAccountType": "Savings Account",
+          "displayNumber": "XXX0100",
+          "displayLastFour": "0100",
+          "displayStatus": "active",
+          "label": "Membership - 0100",
+          "nicknameLabel": "Membership - 0100",
+          "synonym": [
+            "\"Membership - 0100\"",
+            "\"Savings Account\"",
+            "\"membership\"",
+            "Membership",
+            "membership",
+            "\"14660100\"",
+            "\"0100\"",
+            "\"~savingsaccountsynonyms\""
+          ],
+          "synonym_names": [
+            "\"Membership - 0100\"",
+            "\"Savings Account\"",
+            "\"membership\"",
+            "Membership",
+            "membership"
+          ],
+          "synonym_numbers": [
+            "\"14660100\"",
+            "\"0100\""
+          ]
+        },
+        "koreApiPath": "https://demodpd.kore.ai/korebankingtesting/",
+        "channels": [
+          {
+            "type": "rtm",
+            "from": "u-1854256f-0fda-5c3b-9865-efbae9283b66",
+            "botInfo": {
+              "chatBot": "BankAssist Dev",
+              "taskBotId": "st-21ae4413-5366-5621-85c8-08f0f5a3f906",
+              "botType": "universalbot",
+              "hostDomain": "https://bots.kore.ai",
+              "os": "Windows",
+              "device": "Other"
+            },
+            "handle": {
+              "handleId": "d3e43a0b-5de0-4152-97fe-622a72a531a2",
+              "userId": "u-1854256f-0fda-5c3b-9865-efbae9283b66",
+              "clientId": "5a37bf24-fea0-4e6b-a816-f9602db08149",
+              "taskBotId": "st-21ae4413-5366-5621-85c8-08f0f5a3f906",
+              "traceId": "cfd851685b29d7b8",
+              "spanId": "cfd851685b29d7b8",
+              "trace": {}
+            },
+            "client": "botbuilder",
+            "body": "hello",
+            "enable": true,
+            "message": "The bot is disabled via Web/Mobile Client. You can still talk to the bot via SmartAssist, AgentAssist, Web/Mobile Client.",
+            "activeChannels": "SmartAssist,AgentAssist,Web/Mobile Client.",
+            "streamId": "st-21ae4413-5366-5621-85c8-08f0f5a3f906",
+            "tokens": [],
+            "__userInputTime": "2024-01-30T12:38:43.659Z",
+            "__loopCount": 0,
+            "userId": "u-1854256f-0fda-5c3b-9865-efbae9283b66",
+            "requestId": "ms-fb5b818a-8cb5-5b66-b6b5-b9094016be32",
+            "botLanguage": "en",
+            "requestContext": {
+              "isRuntime": true,
+              "isBB": true
+            },
+            "sessionId": "65b8edd37895712f456e7330"
+          }
+        ]
+      },
+      "opts": {
+        "userId": "u-1854256f-0fda-5c3b-9865-efbae9283b66",
+        "streamId": "st-21ae4413-5366-5621-85c8-08f0f5a3f906"
+      }
+    },
+    "updatedOn": "2024-01-30T12:38:55.246Z"
+  }

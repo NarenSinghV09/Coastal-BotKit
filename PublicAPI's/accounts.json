@@ -1,0 +1,386 @@
+[
+    {
+        "email": "ganesh_dev1@prod.com",
+        "botID": "st-bd647995-6c92-5eb1-a8dd-853008902994",
+        "clientID": "cs-c51a3094-7b8e-54ed-843a-e8a20656ef57",
+        "clientSecret": "/cqH2nOJx6Tm3bM4DxjLnrRN78VNe6Nb0O8Er4gLnvw=",
+        "accountID": "658aa9495f4b2d6bf0e3c866",
+        "env": "prod"
+    },
+    {
+        "email": "ccu1_june14_2023@platstag1Prod.com",
+        "botID": "st-1791abea-afbd-5469-a476-7a7abd248db8",
+        "clientID": "cs-ed8c97a0-23fb-57f4-8bcf-3e479b372c2b",
+        "clientSecret": "dWp4Eell9kRJxMk144EgKYOk1Ld801S2He2cj3Q53hM=",
+        "accountID": "64896ab702925d02fc758a09",
+        "env": "platstg"
+    },
+    {
+        "email": "18auto23@preprod.com",
+        "botID": "st-3c14ad4a-5c0c-5855-b585-3a072c8f1154",
+        "clientID": "cs-6401b166-e293-545f-bdac-8a0854cc755f",
+        "clientSecret": "0GViOelFy4QRbBcBBGWLbc31c9NksmlaRk5QbHnf79A=",
+        "accountID": "658192ced126d094d67c69c3",
+        "env": "prod"
+    },
+    {
+        "email": "18auto23@preprod.com",
+        "botID": "st-df1adb0c-6b2a-52d4-b2ba-549a40ba835c",
+        "clientID": "cs-61e7b9c0-ae9a-5756-85c9-6d56c4cac2e4",
+        "clientSecret": "QZS1cAvt67nwUzlnEMN8m6w0AnBrhqAnvkzNGXyRkJg=",
+        "accountID": "658192ced126d094d67c69c3",
+        "env": "prod"
+    },
+    {
+        "email": "18auto23@preprod.com",
+        "botID": "st-58142afb-7d09-5f0f-9542-c45767d42603",
+        "clientID": "cs-786fc8d5-d72f-570b-a483-06b6361f6b47",
+        "clientSecret": "mmkYIvPCDdfw7P7gk4F7qkrSwUVPovJDOEqj079ozJ4=",
+        "accountID": "658192ced126d094d67c69c3",
+        "env": "prod"
+    },
+    {
+        "email": "FSM_auto@prod2.com",
+        "botID": "st-aebb03e9-f7cc-5b84-9055-ef31c81294f5",
+        "clientID": "cs-246aaff1-0458-537c-a881-9148ba903474",
+        "clientSecret": "V2asko345WNz/M12iAVH0ueldjf+BKyXmWpd8v0T5N4=",
+        "accountID": "64df1ddf41c7f17b5b94be1b",
+        "env": "prod"
+    },
+    {
+        "email": "FSM_auto@prod2.com",
+        "botID": "st-0aeba435-d5d6-5985-8ca4-2bb3c88274c3",
+        "clientID": "cs-2408a8c3-8e4b-510a-84fe-0480dfa41854",
+        "clientSecret": "iKIhNfy5Ar/j/R7ETG6+eZ5IjWFTodRlCVjSO88d2uo=",
+        "accountID": "64df1ddf41c7f17b5b94be1b",
+        "env": "prod"
+    },
+    {
+        "email": "FSM_auto@prod2.com",
+        "botID": "st-26a6c0ee-d408-58b5-b82d-343969122ec5",
+        "clientID": "cs-2408a8c3-8e4b-510a-84fe-0480dfa41854",
+        "clientSecret": "pd421zysEwd6Q7nJEMSXmOoQcCI982dH4YzM2aHoGkI=",
+        "accountID": "64df1ddf41c7f17b5b94be1b",
+        "env": "prod"
+    },
+    {
+        "email": "FSM_auto@prod1.com",
+        "botID": "st-52d5bed9-6e8c-5105-b668-eb852139fbbc",
+        "clientID": "cs-4c308e43-f1e5-5532-b00f-36120ffd7173",
+        "clientSecret": "38Yu/3OvQEJ0G8Eb3W3+2J968BreVQziunIkSLFYupo=",
+        "accountID": "64df1c29b0a1e96a1fdeee41",
+        "env": "prod"
+    },
+    {
+        "email": "fsm1@prod.com",
+        "botID": "st-a7918b34-0b0f-55a9-b677-02241cc1d05c",
+        "clientID": "cs-a54811e3-51fc-5c35-82dd-51329fcea3e0",
+        "clientSecret": "a2ZtoRJjCG6nXZrnCAOO1KQpgHJjntKc34nr+oV85h8=",
+        "accountID": "64a6d7364c64bbb4ed070fb9",
+        "env": "prod"
+    },
+    {
+        "email": "fsm2@prod.com",
+        "botID": "st-cbf48fe6-868b-50b8-b80c-56fd9f31b936",
+        "clientID": "cs-fb934020-dfd2-5b44-bdcd-d807132524c0",
+        "clientSecret": "ZKdUuys8Fuqhgs87Nkj0ExuJLrypJXNrQx5it33wunk=",
+        "accountID": "64a6d7bc22e13ccdd319dcce",
+        "env": "prod"
+    },
+    {
+        "email": "fsm3@prod.com",
+        "botID": "st-e2d1fb95-8140-5fd2-840d-aea4ddc0d558",
+        "clientID": "cs-bdcb269a-adb0-58ab-b5ea-5a8c061805da",
+        "clientSecret": "3cNCi7iIJEKMQsKqd/SyHYEQhKNPic9KpSgm049bAmE=",
+        "accountID": "64a6d8628049461180772373",
+        "env": "prod"
+    },
+    {
+        "email": "fsm4@prod.com",
+        "botID": "st-68aa8445-fb06-585c-9afe-e3e4b9587b0d",
+        "clientID": "cs-42501e2d-d9a5-57ed-a4ea-88ccdf85856e",
+        "clientSecret": "QRJaiKGjp5eOyh5pn7HFf175dHwFeF7XQzlWmgtcvQE=",
+        "accountID": "64a6d8f4c658d24936edc59a",
+        "env": "prod"
+    },
+    {
+        "email": "fsm5@prod.com",
+        "botID": "st-d5054b45-87ad-55ff-89da-64f34ed28380",
+        "clientID": "cs-df6afd23-3d9b-5938-9113-d610a5ee9f8c",
+        "clientSecret": "2zc2nsEJIDVaSroRyYLns4jNVfliGM0yCnxdxR0U0iI=",
+        "accountID": "64a6d97084685a61be6023e9",
+        "env": "prod"
+    },
+    {
+        "email": "fsm6@prod.com",
+        "botID": "st-aa47e656-c134-5064-8bd0-ad87490bee7a",
+        "clientID": "cs-bbe6d27f-5f57-556d-a6e5-2339ee375c89",
+        "clientSecret": "LB8gh/Is1a8/m4mB+cPyGoSZHIPHm3BDduG/0OLIaCk=",
+        "accountID": "64a6d9edd057bed2694cd9ab",
+        "env": "prod"
+    },
+    {
+        "email": "13aug@prod3.com",
+        "botID": "st-86af09d0-7d12-508f-9c31-a00afab5f2e0",
+        "clientID": "cs-46d9bcba-18c5-5eaa-9bcf-54f58bc17763",
+        "clientSecret": "SIDbgixS+kE8iJQ01AB+JZzOzS6N1swPaI/kzSvmt1c=",
+        "accountID": "64d82456d7314e9ada539656",
+        "env": "prod"
+    },
+    {
+        "email": "13aug@prod2.com",
+        "botID": "st-cc40f350-f625-5e4f-8a56-9cefa44351a8",
+        "clientID": "cs-f1937b8e-ef0f-561c-b32e-863ea5f71760",
+        "clientSecret": "ai+Q4OK4YcnOxaSmNSBOPiEmVNsdPHR0Mr94oijMtsI=",
+        "accountID": "64d822e4523bee6a091a8957",
+        "env": "prod"
+    },
+    {
+        "email": "17jan2023@prod1.com",
+        "botID": "st-81bb53ee-ebad-5c7d-b7c5-76d1ce796095",
+        "clientID": "cs-870e4a1b-f14b-537b-8264-0438b21ac247",
+        "clientSecret": "SG7EOMgVyKq4Y+4eWSBxQqdh4AQPIWj5j+EFKi0lQNs=",
+        "accountID": "63c627efbc38df22b49b1891",
+        "env": "prod"
+    },
+    {
+        "email": "17jan2023@prod2.com",
+        "botID": "st-805d6c10-0c98-5485-a85d-7448cb932323",
+        "clientID": "cs-7b8d79cd-b447-5036-a2a4-e006e119640c",
+        "clientSecret": "zFDHdzONSNtnHUaZ94gLGdQVFbu93tQ/F6alpKbLRBA=",
+        "accountID": "63c628bd0dac3f222e7d64b7",
+        "env": "prod"
+    },
+    {
+        "email": "28dec2022@prod1.com",
+        "botID": "st-7adb12b3-a39a-55ad-a34b-46467bd49996",
+        "clientID": "cs-bc0ab418-98b2-5db8-9a2a-43c450540b91",
+        "clientSecret": "l1Jl0oNkgBXplHhHz57qNfMtiJeLJ9beruIith1BYhc=",
+        "accountID": "63abeeabf953a2dff43d1261",
+        "env": "prod"
+    },
+    {
+        "email": "28dec2022@prod2.com",
+        "botID": "st-7e077391-7bb3-5226-a8fd-140a52d3529c",
+        "clientID": "cs-44835bf5-a623-581f-b97d-32ec75ce314f",
+        "clientSecret": "bm/LeYPOa9pUu8BNkvYFd0jxo57e/n5fdW2ZMDQVs3U=",
+        "accountID": "63abef4465125a1929c247ba",
+        "env": "prod"
+    },
+    {
+        "email": "may07@prod1.com",
+        "botID": "st-6ef5b91a-fac7-5039-996d-05e2ed78bb10",
+        "clientID": "cs-b20fc224-760d-534c-b1c0-c905f32f305f",
+        "clientSecret": "mupJfmcoOOn0WazjtSWusa+vvWLcTmnehRDtDw6WIpI=",
+        "accountID": "6276004c7876d3d474ec8869",
+        "env": "prod"
+    },
+    {
+        "email": "9feb_2023@gerber.com",
+        "botID": "st-7da97a70-b1ad-5445-9125-92c31b162192",
+        "clientID": "cs-493e3c09-5c54-521e-b146-5759881c4100",
+        "clientSecret": "jY24JPUUsKuM1mmO4M+t4am4b519HHD4CtXcw3VPFM4=",
+        "accountID": "63e49cf417fba93c5664ecf9",
+        "env": "prod"
+    },
+    {
+        "email": "pscu.18aug@prod1.com",
+        "botID": "st-93c1d502-68a3-53e8-bf1b-bd62e6240503",
+        "clientID": "cs-7f2ff43a-63e2-52bc-bf1a-461c030dd224",
+        "clientSecret": "28TPRT0Rta98YR0vPbCABOYIssqiLhL9OmZPDEmpmcQ=",
+        "accountID": "62fe1dba328794d91b009645",
+        "env": "prod"
+    },
+    {
+        "email": "pscu.18aug@prod2.com",
+        "botID": "st-4735caca-164d-5d56-8928-ddd6fe081713",
+        "clientID": "cs-64779a5d-71d3-5a29-9120-88cd1f661d57",
+        "clientSecret": "zgJ1tEldMe5rFayOcKLgs+ftZMv2YzZkXNjXnSs6QvY=",
+        "accountID": "62fe1e32527bbd82a031fed6",
+        "env": "prod"
+    },
+    {
+        "email": "nhohnke@pscunow.com",
+        "botID": "st-7f34f289-2328-5397-ba0c-4dd6bb68769c",
+        "clientID": "cs-2bbc03c8-91b1-56e9-b173-3bca9db03821",
+        "clientSecret": "JDZKjW63TbagjfmepmC9cFzmVYYhUcylS5fXnNmB9kI=",
+        "accountID": "60a5e6c3ceb6b614a50cc6be",
+        "env": "prod"
+    },
+    {
+        "email": "nhohnke@pscunow.com",
+        "botID": "st-4de321f7-2dcd-501e-aae8-81c0d941e241",
+        "clientID": "cs-42be8b9e-5ab0-5035-a5b2-40b9a852abb3",
+        "clientSecret": "WUzKlvertv3ZLv/9TiQcDc0n2PDzL13+zfhco6J1PVA=",
+        "accountID": "60a5e6c3ceb6b614a50cc6be",
+        "env": "prod"
+    },
+    {
+        "email": "auto01@platstg.com",
+        "botID": "st-4882e572-f939-56dd-9dbe-59b82724e8bb",
+        "clientID": "cs-8049d432-7be0-5db6-b951-cca2778aeef3",
+        "clientSecret": "4EmIXrxdM8Yc0vvM4Yc8TAYbTWuaIkMivl/JfoESFw0=",
+        "accountID": "64e5ea54ec16c24c8b939c39",
+        "env": "platstg"
+    },
+    {
+        "email": "fsm@platstag5.com",
+        "botID": "st-ca44203f-2950-5f0b-a1ab-a78e8c3770a0",
+        "clientID": "cs-792a3d8a-40ae-53e0-bca5-8aa34496f454",
+        "clientSecret": "O8qOSXXOKv8tG+2Dbd26xo4quoEra2v1RCJpmEYlVpQ=",
+        "accountID": "64a2c6624d458620b13c10d8",
+        "env": "platstg"
+    },
+    {
+        "email": "fsm@platstag3.com",
+        "botID": "st-d9f3c3d4-beaf-51fb-b4ae-1a27f71f254d",
+        "clientID": "cs-72227df5-fe9f-5d40-9097-b27d48b26057",
+        "clientSecret": "/n2YZglDgXRl1dZQBrUVkr077MgGGfEd5ShttW+E/So=",
+        "accountID": "64a2c53f4b3a2920c551f671",
+        "env": "platstg"
+    },
+    {
+        "email": "30jan2023@platstg1.com",
+        "botID": "st-7250ab98-9ae2-57e7-a0b4-da4afcba92d2",
+        "clientID": "cs-26079fa3-b476-51ae-a834-b87b3c278965",
+        "clientSecret": "pqZ9YHmlYLLyoNGB1MMlNl0qHVNT+2W76Y/4a9qUVJI=",
+        "accountID": "63d78aecd7e1de57ab87bdef",
+        "env": "platstg"
+    },
+    {
+        "email": "22dec2022@platstg1.com",
+        "botID": "st-4310ee0c-6f76-549f-8ccc-7a8086ab1de7",
+        "clientID": "cs-51220eac-c5fe-52f2-9c3f-87d6bdf41ebc",
+        "clientSecret": "cIp+XAtHwDroiIglNqavuL0JSsY8OZQkxA8ttjNyEis=",
+        "accountID": "63a3eff79219e07dc6c6fab4",
+        "env": "platstg"
+    },
+    {
+        "email": "22dec2022@platstg2.com",
+        "botID": "st-7c192a80-bf7c-54a5-bd1e-8439f4a8a271",
+        "clientID": "cs-fc2818da-6acd-5127-8424-8a3668e14c80",
+        "clientSecret": "k6wPsnybFs23mKSLPKFN9OAcW0GDsaTdnnGoxpD4e60=",
+        "accountID": "63a3f04f743761032c293e2e",
+        "env": "platstg"
+    },
+    {
+        "email": "4nov2022@platstg1.com",
+        "botID": "st-24cc26c9-b594-5bf0-97aa-24de681d6c88",
+        "clientID": "cs-240b428a-406e-5557-b0a3-aaa60677f1e1",
+        "clientSecret": "Ux8A+TrDamsEQINYY+uaTmhWlMrF5V9b0s7me0kwWFw=",
+        "accountID": "6364dc857667e3564cea5a76",
+        "env": "platstg"
+    },
+    {
+        "email": "4nov2022@platstg2.com",
+        "botID": "st-8ab94df5-32ef-51d2-b781-a574db88867a",
+        "clientID": "cs-cfe80bb2-eadf-5060-98ca-e3a2c683fa43",
+        "clientSecret": "eUEl1RRxBKXpqMD3GLlIUe/xG2YOgTT3RYQe0SE5TFw=",
+        "accountID": "6364dd27075309202f17c17c",
+        "env": "platstg"
+    },
+    {
+        "email": "16sept2022@platstg.com",
+        "botID": "st-274be42e-f05e-5e06-9b82-ea853b80c9b2",
+        "clientID": "cs-ec2f42ba-4cc4-589e-84c6-165c7f92880e",
+        "clientSecret": "Pd342e/KZNc2Z9VkZeksCUjVQcbvg6i8ropuNEpX0ZE=",
+        "accountID": "632471d74feb5a7ba63182a6",
+        "env": "platstg"
+    },
+    {
+        "email": "july22_2022@platstg1.com",
+        "botID": "st-2534d227-7c49-563b-b2a2-fd9e176e7169",
+        "clientID": "cs-4341bc53-623e-5fba-9554-ab690c7b5a03",
+        "clientSecret": "fXT3USo/mMqMMakQQveDDU+502Is74vxCpPeIuIKjnk=",
+        "accountID": "62da70a70e624f5dce57c4e9",
+        "env": "platstg"
+    },
+    {
+        "email": "july22_2022@platstg2.com",
+        "botID": "st-cc99157a-e551-5258-9a30-fef4d1ea2243",
+        "clientID": "cs-4a4a5028-5ddb-5a1c-b39d-5f404404d371",
+        "clientSecret": "SRa2XarKE6u84tlERFuy9o6nyZsHyiUab1vR4wPvgTs=",
+        "accountID": "62da715aed9d18457a43b98f",
+        "env": "platstg"
+    },
+    {
+        "email": "july04_2022@platstg.com",
+        "botID": "st-e64f0235-aeca-5254-9bbe-e44d6d6586fc",
+        "clientID": "cs-2ef69515-10b2-5e93-a161-c277fb949e8d",
+        "clientSecret": "pyhtE7XvH1l/uD3o5vNpvQsPnyXJng2Ftz9+LQxqeqo=",
+        "accountID": "62c29a42cba37057fabc109c",
+        "env": "platstg"
+    },
+    {
+        "email": "may23_2022@platstg1.com",
+        "botID": "st-45148db2-1895-5c5f-b600-cfbf6b14b6d2",
+        "clientID": "cs-d958b209-65a6-534e-8732-f352a7db20fe",
+        "clientSecret": "HTcd86KKj6D/nsp0oCxcwrJZlNij2BKBMKPeO386tDc=",
+        "accountID": "628b17c71353bc4f2a7ba218",
+        "env": "platstg"
+    },
+    {
+        "email": "27jan2023_symitar@platstg.com",
+        "botID": "st-28853ee1-2006-5b1f-bb23-cf5095bcaeaa",
+        "clientID": "cs-6544b0fe-27e4-5424-8e3f-dd4a75abd6d4",
+        "clientSecret": "mNrOdeliOGaTV10RmbjAlOfAKZW3/AsIDayoay6AeW8=",
+        "accountID": "63d37b2ad94a8f779da174d1",
+        "env": "platstg"
+    },
+    {
+        "email": "06oct2022_symitar@platstg.com",
+        "botID": "st-9847dd4c-741a-57dd-9c29-7b8725b1055d",
+        "clientID": "cs-f62174b1-6e64-5964-9d53-c5e09d10bf11",
+        "clientSecret": "ZAlq40hrwtITZ1nV7O3wdpVM4ulSCArTNq+Tl8Uq8/A=",
+        "accountID": "633eb4f87fa67813590efa67",
+        "env": "platstg"
+    },
+    {
+        "email": "gerber.15feb2023@platstg.com",
+        "botID": "st-8ff24636-e940-57d4-aa48-2fc630b019c8",
+        "clientID": "cs-8b912312-e070-57c7-b510-9c50f5aabd92",
+        "clientSecret": "//L6sKhbdQw0Jh4AX8DTArk/MiD1pNsZKocQdIM17AY=",
+        "accountID": "63ece615f3c5c5716bea6536",
+        "env": "platstg"
+    },
+    {
+        "email": "pscu.18aug@platstg1.com",
+        "botID": "st-06497bf3-0626-5cd5-a283-afce44c2b1ed",
+        "clientID": "cs-335506f7-6589-54fa-bb0d-7e73e15ebd15",
+        "clientSecret": "c36A7oqLz14+9xrfcNlAi3aaavYh0ctdEXOQWiAr/Ko=",
+        "accountID": "62fe216ebd1ced479d2754ab",
+        "env": "platstg"
+    },
+    {
+        "email": "pscu.18aug@platstg2.com",
+        "botID": "st-143441e8-ad4d-524e-960b-a7bf6363912e",
+        "clientID": "cs-251a4cd3-5d9c-57a7-8304-7d70e57355b6",
+        "clientSecret": "gvEzK51geKdYVyP9D5VVM4HLiRkMVJJ5A2vF56yJz8A=",
+        "accountID": "62fe21af211b3d47a57998a8",
+        "env": "platstg"
+    },
+    {
+        "email": "intent_managment@qa1.com",
+        "botID": "st-a0f0f97c-331d-57db-a42a-5eec1845b951",
+        "clientID": "cs-76bf30b7-3114-571d-b93e-2dcd50c03392",
+        "clientSecret": "KEpXz5x5IUCF29kIL2nkjPgpjteNMu2ZeImlbbnzTlo=",
+        "accountID": "64bf917b9fc8774df12c7602",
+        "env": "qa"
+    },
+    {
+        "email": "intent_managment@qa2.com",
+        "botID": "st-8da548bd-525c-5c36-a138-230eecb7a9a0",
+        "clientID": "cs-81f3ad4b-ad64-5e0b-b0cc-b15b5f93f159",
+        "clientSecret": "MZL5nfiLWQMyx9d0utBokxJdxcdV/A9nVA15f9gIOrk=",
+        "accountID": "64bf91f9f804f914d23da9ef",
+        "env": "qa"
+    },
+    {
+        "email": "intent_managment@qa3.com",
+        "botID": "st-5f44ecff-0bdd-5a8a-93e9-0dfb02f1f48e",
+        "clientID": "cs-4c5c8a9e-2b63-56c9-8d3e-9deb4f659113",
+        "clientSecret": "K2lctvcDzApDNeRI44ZmaJ+g/HaHkmupI0hfHzEyZ9E=",
+        "accountID": "64bf927a9fc8774df12c9213",
+        "env": "qa"
+    }
+]

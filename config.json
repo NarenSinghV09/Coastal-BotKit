@@ -1,0 +1,47 @@
+{
+    "server": {
+        "port": 8005,
+        "cluster": true
+    },
+    "app": {
+        "apiPrefix": "/bankingbotkit",
+        "url": "https://demodpd.kore.ai"
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "st-061c70f8-dbc4-5d29-8abb-92cc6e5b501e": {
+            "apikey": "Du1KcmTAVmv2kdwlh/F6neOiuIZM3FINeWELuy8DJ+s=",
+            "appId": "cs-2f894da1-9303-59c5-934e-11caff52e30e",
+            "botName": "Prod BankAssist Testing"
+        },
+        "st-635f8af3-c716-5720-bcc2-639e14064d32": {
+            "apikey": "WnrsU2TyBfIKp2Txia32a2PwW4vp3bspwR+te44iDTc=",
+            "appId": "cs-dc3a8486-7448-5044-83d3-b3828e35b5e9",
+            "botName": "Prod BankAssist Dev"
+        }
+    },
+    "jwt": {
+        "jwtAlgorithm": "HS256",
+        "jwt-expiry": 60,
+        "st-67890": {
+            "jwtAlgorithm": "HS512",
+            "jwt-expiry": 60
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379,
+            "password": "kore123"
+        },
+        "available": false
+    },
+    "examples": {
+        "mockServicesHost": "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages": ["en", "de"]
+}

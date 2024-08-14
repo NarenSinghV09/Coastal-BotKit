@@ -1,0 +1,32 @@
+{
+    "prod": {
+        "botName":"Banking Assistant 123",
+        "streamID": "st-5813d3a9-ba7d-5211-8f65-bd0ff7b520cc",
+        "clientId": "cs-4a8749fc-f3dc-5d15-8718-bdd419bcd6ea",
+        "secreatKey": "tQOocUM8LEgCxs/sNMavZZ593gdbwc3YIfjJ9IEfP8w=",
+        "version": "1.1",
+        "host": "bots.kore.ai"
+    },
+    "staging": {
+        "botName":"BankAssist_Clone",
+        "streamID": "st-956dc6c4-449d-5223-946d-89ed6b463f5a",
+        "clientId": "cs-5606ecd1-ae7b-5e3b-adbe-c56336660f62",
+        "secreatKey": "fQrdKqr5D3ZRL3BgMLbbM2g3tIURdTIH0ZdPTFHc94Y=",
+        "version": "1.1",
+        "host": "staging-bots.korebots.com"
+    },
+    "developer": {
+        "botName":"Banking Virtual Assistant",
+        "streamID": "st-09dd5d74-d2ba-51a4-96a0-4c254ab117b8",
+        "clientId": "cs-9187e6e8-9372-5e28-aa5f-dfa4b2ecc5ec",
+        "secreatKey": "a9lEPCLMYxjat8lfwgAdTSR5JSLDZxhYlQBdKl5bH64=",
+        "version": "1.1",
+        "host": "bots.kore.ai"
+    },
+    "userdetails":{
+
+    },
+    "server":{
+        "PORT":8008
+    }
+}

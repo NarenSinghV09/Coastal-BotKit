@@ -1,0 +1,74 @@
+{
+    "UFCU":{
+        "UAT": {
+            "URL": "",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "URL_IVR":""
+        },
+        "SIT": {
+            "URL": "",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "URL_IVR":""
+        },
+        "PROD":{
+            "URL": "",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "URL_IVR":""
+        },
+        "Data_table": {
+            "URL": "",
+            "headers": { 
+                "auth": "", 
+                "content-type": "application/json"
+              }
+        }
+    },
+    "HNB":{
+        "UAT": {
+            "URL": "",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "URL_IVR":""
+        },
+        "SIT": {
+            "URL": "",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "URL_IVR":""
+        },
+        "PROD":{
+            "URL": "",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "URL_IVR":""
+        },
+        "Data_table": {
+            "URL": "",
+            "headers": { 
+                "auth": "", 
+                "content-type": "application/json"
+              }
+        }
+    }
+}
